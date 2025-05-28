@@ -1,0 +1,15 @@
+# Local Terraform directory
+**/.terraform/
+
+# Terraform state files (and backups)
+.tfstate
+.tfstate.*
+
+# Variable files (if they contain secrets or are not meant to be shared)
+.tfvars
+.tfvars.json
+
+# Other files to exclude (optional)
+*.tfplan # Terraform plan files
+*.tfstate.backup
+# ... any other files you don't want in version control ...
